@@ -1,0 +1,19 @@
+.wrapper {
+  min-height: 100vh;
+  background: rgb(238, 174, 202);
+  background: radial-gradient(
+    circle,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(40, 125, 226, 1) 100%
+  );
+}
+.content {
+  margin: 0 auto;
+
+  width: 380px;
+}
+@media screen and (min-width: 900px) {
+  .content {
+    width: 900px;
+  }
+}

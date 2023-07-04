@@ -1,0 +1,23 @@
+.container {
+  padding: 0 10px;
+  background-color: hsla(0, 0%, 100%, 0.2);
+  box-shadow: 0 0 10px silver;
+}
+.titleSection {
+  display: flex;
+  text-align: center;
+}
+.title,
+.region {
+  padding-top: 15px;
+  margin: 0;
+  color: #fff;
+}
+.nameSection {
+  margin: 0 auto;
+}
+
+.forecast {
+}
+.today {
+}

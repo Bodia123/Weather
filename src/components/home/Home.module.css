@@ -1,0 +1,15 @@
+.container {
+  text-align: center;
+}
+.popular {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.title {
+}
+.link {
+  margin-right: 15px;
+  text-decoration: none;
+  color: #fff;
+}

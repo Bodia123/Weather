@@ -1,0 +1,26 @@
+.resultContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.results {
+  width: 100%;
+  padding: 0 15px;
+}
+.resultItem {
+  margin: 5px 0;
+  display: flex;
+  border: 1px solid gray;
+  background-color: rgba(128, 128, 128, 0.333);
+}
+.link {
+  width: 100%;
+  text-decoration: none;
+  color: #fff;
+}
+.name {
+  text-align: center;
+}
+.region {
+  text-align: center;
+}

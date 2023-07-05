@@ -30,6 +30,13 @@
   .listItem {
     margin-right: 15px;
   }
+  .hourItem {
+    margin: 0 auto;
+  }
+  .hourList {
+    width: 100%;
+    min-width: 100vh;
+  }
 }
 /* ---------------------------- */
 .forecastTable {
@@ -40,20 +47,20 @@
   text-align: center;
 }
 .hourList {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-around;
   list-style: none;
-  overflow: hidden;
 }
 .hourItem {
-  overflow-y: hidden;
-  overflow-x: auto;
-  width: 1500px;
+  /* width: 800px; */
   padding-top: 10px;
   display: flex;
-  /* align-items: center; */
-  padding: auto;
   color: #fff;
   height: 30px;
-  border-top: 1px solid #4793ff;
+  /* border: 1px solid #4793ff; */
+  /* border-top: 1px solid #4793ff; */
 }
 .timeCount {
   margin-right: 20px;
@@ -61,4 +68,10 @@
 .icon {
   width: 100%;
   height: 100%;
+}
+.willRain {
+  margin-right: 10px;
+}
+.speedWind {
+  margin-right: 15px;
 }

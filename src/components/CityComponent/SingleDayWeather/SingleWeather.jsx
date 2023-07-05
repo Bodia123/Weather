@@ -58,16 +58,6 @@ function SingleWeather({ weather }) {
                     className={css.Icon}
                   />
                   <p> Йомвірність дощу: {item.chance_of_rain}%</p>
-                  {/* {item.will_it_rain === 1 && (
-                    <>
-                      <p className={css.willRain}>
-                        ймовірність дощу {item.chance_of_rain} %
-                      </p>
-                    </>
-                  )} */}
-                  {/* <p className={css.speedWind}>
-                    швидкість вітру:{item.wind_kph} км\год
-                  </p> */}
                 </li>
               );
             }

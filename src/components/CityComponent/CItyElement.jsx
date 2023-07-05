@@ -19,9 +19,8 @@ function CityElement() {
       {city ? (
         <div className={css.container}>
           <MainInfo info={city} />
-          {selected && <SingleWeather weather={selected} />}
-
           <Forecast day={city.forecast} onClick={setSelected} />
+          {selected && <SingleWeather weather={selected} />}
         </div>
       ) : (
         <Loader />

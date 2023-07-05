@@ -1,15 +1,18 @@
 .forecast {
   margin-top: 10px;
+  overflow-x: auto;
 }
 
 .daysList {
-  margin: -5px;
+  width: 800px;
+  height: 230px;
+  /* margin: -5px; */
   padding: 0;
   list-style: none;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
 }
 .weatherIconContainer {
   align-items: center;
@@ -17,7 +20,7 @@
 .today {
 }
 .cityItem {
-  margin: 5px;
+  margin-right: 5px;
   border-radius: 10px;
   background-color: #2e3035;
   width: 165px;
@@ -29,6 +32,8 @@
   background-color: #6a88d4;
   width: 165px;
   height: 200px;
+  transform: scale(90%);
+  transition: all 0.5s ease-out;
 }
 .weatherIconContainer {
   display: flex;

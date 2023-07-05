@@ -1,13 +1,14 @@
 import React from 'react';
-import css from './CityElement.module.css';
+import css from './Forecast.module.css';
+import DaySection from './DaySection';
 
-function Forecast({ day }) {
+function Forecast({ day, onClick }) {
   const { forecastday } = day;
   return (
     <div className={css.forecast}>
       <ul className={css.daysList}>
-        {forecastday.map(day => (
-          <li key={day.date}>{day.date}</li>
+        {forecastday.map(item => (
+          <DaySection item={item} key={item.date_epoch} onClick={onClick} />
         ))}
       </ul>
       <div className={css.today}></div>

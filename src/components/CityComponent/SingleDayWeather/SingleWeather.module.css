@@ -1,0 +1,64 @@
+.weatherContainer {
+  margin-top: 15px;
+  background-color: #2e3035;
+  border-radius: 10px;
+}
+.otherInfo {
+}
+.title {
+  text-align: center;
+  color: #fff;
+}
+.listWeather {
+  list-style: none;
+  padding-left: 15px;
+  padding-bottom: 5px;
+}
+.listItem {
+  padding: 5px 0;
+  color: #fff;
+}
+.listItem span {
+  color: #4793ff;
+}
+@media screen and (min-width: 900px) {
+  .listWeather {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .listItem {
+    margin-right: 15px;
+  }
+}
+/* ---------------------------- */
+.forecastTable {
+  margin-top: 10px;
+}
+.forecastTitle {
+  color: #fff;
+  text-align: center;
+}
+.hourList {
+  list-style: none;
+  overflow: hidden;
+}
+.hourItem {
+  overflow-y: hidden;
+  overflow-x: auto;
+  width: 1500px;
+  padding-top: 10px;
+  display: flex;
+  /* align-items: center; */
+  padding: auto;
+  color: #fff;
+  height: 30px;
+  border-top: 1px solid #4793ff;
+}
+.timeCount {
+  margin-right: 20px;
+}
+.icon {
+  width: 100%;
+  height: 100%;
+}

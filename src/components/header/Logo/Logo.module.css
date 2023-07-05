@@ -2,3 +2,9 @@
   width: 30px;
   margin-right: 10px;
 }
+.logoContainer {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-right: auto;
+}

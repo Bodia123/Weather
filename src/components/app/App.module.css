@@ -1,4 +1,6 @@
 .wrapper {
+  padding-right: 5px;
+  padding-left: 5px;
   min-height: 100vh;
   background: rgb(238, 174, 202);
   background: radial-gradient(
@@ -9,8 +11,7 @@
 }
 .content {
   margin: 0 auto;
-
-  width: 380px;
+  width: 375px;
 }
 @media screen and (min-width: 900px) {
   .content {

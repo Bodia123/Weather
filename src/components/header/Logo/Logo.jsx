@@ -5,9 +5,12 @@ import { Link } from 'react-router-dom';
 
 function Logo() {
   return (
-    <Link to={`/`}>
-      <img src={logoPicture} alt="logo" className={css.logo} />
-    </Link>
+    <div className={css.logoContainer}>
+      <Link to={`/`}>
+        <img src={logoPicture} alt="logo" className={css.logo} />
+      </Link>
+      <p>Bogdan Weather</p>
+    </div>
   );
 }
 

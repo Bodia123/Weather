@@ -10,7 +10,7 @@ function Home() {
           Поточний час: {<Moment format="HH:mm" interval={30000} />}
         </p>
       </div>
-      <p className={css.popularTitle}>Популярні:</p>
+      <p className={css.popularTitle}>Популярні запити:</p>
       <div className={css.popular}>
         <Link to={`city/Pervomaysk`} className={css.link}>
           Первомайськ

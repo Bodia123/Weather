@@ -56,3 +56,8 @@
 .activeDayContainer {
   color: #2e3035;
 }
+@media screen and (min-width: 900px) {
+  .daysList {
+    margin: 0 auto;
+  }
+}

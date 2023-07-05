@@ -5,6 +5,7 @@ import { useParams } from 'react-router-dom';
 import Forecast from './Forecast/Forecast';
 import MainInfo from './MainInfo';
 import SingleWeather from './SingleDayWeather/SingleWeather';
+import Loader from 'components/loading/Loader';
 
 function CityElement() {
   const { id } = useParams();
@@ -13,7 +14,6 @@ function CityElement() {
   useEffect(() => {
     currentForecast(id).then(setCity);
   }, [id]);
-  console.log(selected);
   return (
     <>
       {city ? (
@@ -24,7 +24,7 @@ function CityElement() {
           <Forecast day={city.forecast} onClick={setSelected} />
         </div>
       ) : (
-        'loading'
+        <Loader />
       )}
     </>
   );

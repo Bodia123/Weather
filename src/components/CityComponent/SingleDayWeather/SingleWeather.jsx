@@ -3,7 +3,7 @@ import css from './SingleWeather.module.css';
 import { unixToWeekDay } from 'service/time';
 
 function SingleWeather({ weather }) {
-  const { day, hour } = weather;
+  const { day, hour, astro } = weather;
   return (
     <div className={css.weatherContainer}>
       <div className={css.otherInfo}>
@@ -31,22 +31,23 @@ function SingleWeather({ weather }) {
               Видимість: <span>{day.avgvis_km} км</span>
             </p>
           </li>
+          <li className={css.listItem}>
+            <p>
+              Світанок: <span>{astro.sunrise} </span>
+            </p>
+          </li>
+          <li className={css.listItem}>
+            <p>
+              Захід сонця: <span>{astro.sunset} </span>
+            </p>
+          </li>
         </ul>
       </div>
       <div className={css.forecastTable}>
         <p className={css.forecastTitle}>Погода погодинно</p>
         <ul className={css.hourList}>
           {hour.map((item, index) => {
-            if (
-              index === 0 ||
-              index === 3 ||
-              index === 6 ||
-              index === 9 ||
-              index === 12 ||
-              index === 15 ||
-              index === 18 ||
-              index === 21
-            ) {
+            if (index) {
               return (
                 <li key={index} className={css.hourItem}>
                   <p className={css.timeCount}> {item.time.slice(11, 16)}</p>
@@ -56,7 +57,7 @@ function SingleWeather({ weather }) {
                     alt={item.condition.text}
                     className={css.Icon}
                   />
-
+                  <p> Йомвірність дощу: {item.chance_of_rain}%</p>
                   {/* {item.will_it_rain === 1 && (
                     <>
                       <p className={css.willRain}>

@@ -1,15 +1,25 @@
 .container {
   text-align: center;
 }
+.popularTitle {
+  margin-top: 50px;
+}
 .popular {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
 .title {
+  color: #fff;
 }
 .link {
   margin-right: 15px;
   text-decoration: none;
   color: #fff;
+}
+.currentTime {
+  color: #fff;
+}
+.currentTime > time {
+  color: #000000;
 }

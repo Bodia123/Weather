@@ -1,6 +1,9 @@
-# React homework template
+# Weather App
 
-Этот проект был создан при помощи
-[Create React App](https://github.com/facebook/create-react-app). Для знакомства
-и настройки дополнительных возможностей
-[обратись к документации](https://facebook.github.io/create-react-app/docs/getting-started).
+Погодний веб-додаток.
+
+# Функціонал:
+
+- автозаповнення назв міст
+- погода за певний день
+- багато додаткової погодної інформації

@@ -33,3 +33,9 @@
 .currentTime > time {
   color: #a29999;
 }
+.myLink {
+  margin-top: 50px;
+  font-family: 'Jost', italic;
+  font-size: larger;
+  color: #a29999;
+}

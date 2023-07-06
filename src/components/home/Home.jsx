@@ -22,6 +22,25 @@ function Home() {
           Хургада
         </Link>
       </div>
+      <div className={css.myLink}>
+        <p>Звязітись зі мною:</p>
+        <a
+          href="https://github.com/Bodia123"
+          target="_blank"
+          rel="noreferrer"
+          className={css.link}
+        >
+          Git
+        </a>
+        <a
+          href="https://www.linkedin.com/in/zinovkin/"
+          target="_blank"
+          rel="noreferrer"
+          className={css.link}
+        >
+          LinkedIn
+        </a>
+      </div>
     </div>
   );
 }

@@ -13,6 +13,7 @@ function CityElement() {
   const [selected, setSelected] = useState();
   useEffect(() => {
     currentForecast(id).then(setCity);
+    setSelected();
   }, [id]);
   return (
     <>

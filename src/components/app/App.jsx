@@ -5,7 +5,25 @@ import AppRoutes from 'Routes/Routes';
 
 function App() {
   return (
-    <div className={css.wrapper}>
+    <div className={css.background}>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
+      <span></span>
       <div className={css.content}>
         <Header />
         <AppRoutes />

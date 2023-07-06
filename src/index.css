@@ -1,5 +1,10 @@
 @import-normalize; /* bring in normalize.css styles */
-
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:ital@1&display=swap');
+@font-face {
+  font-family: Feelfree;
+  src: url(/src/fonts/FeelfreePersonalUseRegular-lg2Bw.ttf);
+}
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',

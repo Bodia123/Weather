@@ -6,10 +6,10 @@ import { Link } from 'react-router-dom';
 function Logo() {
   return (
     <div className={css.logoContainer}>
-      <Link to={`/`}>
+      <Link to={`/`} className={css.link}>
         <img src={logoPicture} alt="logo" className={css.logo} />
+        <p>Weather</p>
       </Link>
-      <p>Bogdan Weather</p>
     </div>
   );
 }

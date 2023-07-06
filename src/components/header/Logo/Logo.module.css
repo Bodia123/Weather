@@ -6,5 +6,17 @@
   display: flex;
   text-align: center;
   align-items: center;
+  margin-left: 10px;
   margin-right: auto;
+}
+.link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.logoContainer p {
+  margin-right: 5px;
+  font-family: 'Lobster', cursive;
+  font-size: 20px;
+  color: #fff;
 }

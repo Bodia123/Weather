@@ -4,7 +4,7 @@ import Moment from 'react-moment';
 function Home() {
   return (
     <div className={css.container}>
-      <h1 className={css.title}>Bogdan Weather</h1>
+      <h1 className={css.title}>Weather App</h1>
       <div className={css.time}>
         <p className={css.currentTime}>
           Поточний час: {<Moment format="HH:mm" interval={30000} />}

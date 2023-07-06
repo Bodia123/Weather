@@ -88,12 +88,17 @@ function SingleWeather({ weather }) {
           </li>
           <li className={css.listItem}>
             <p>
-              Світанок: <span>{astro.sunrise} </span>
+              Схід місяця:{' '}
+              <span>
+                {astro.moonrise.length !== 11
+                  ? astro.moonrise
+                  : 'інформація відсутня'}
+              </span>
             </p>
           </li>
           <li className={css.listItem}>
             <p>
-              Захід сонця: <span>{astro.sunset} </span>
+              Захід місяця: <span>{astro.moonset} </span>
             </p>
           </li>
         </ul>

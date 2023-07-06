@@ -39,6 +39,9 @@
   .hourList {
     /* width: 100%; */
   }
+  .listItem span {
+    display: block;
+  }
 }
 /* ---------------------------- */
 .startInfo {

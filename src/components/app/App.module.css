@@ -198,10 +198,16 @@
   top: 0;
   left: 0;
   background: #3e1e68;
-  overflow: hidden;
 }
 @media only screen and (min-width: 900px) {
   .content {
     width: 900px;
+    overflow: hidden;
+  }
+  .background {
+    min-width: 100vh;
+  }
+  .background > span {
+    display: none;
   }
 }
